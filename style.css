@@ -25,6 +25,12 @@ body{
   .todo-items li {
     list-style-type: none;
   }
+  .todo-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+  }
   .none {
     border: none;
     margin-left: -13rem;
@@ -34,7 +40,7 @@ body{
     padding: 10px;
     border-radius: 5px;
     border: 0;
-    width: 300px;
+    width: 350px;
     max-width: 100%;
     font-size: 16px;
   }
